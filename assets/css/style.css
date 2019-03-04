@@ -1,0 +1,55 @@
+body {
+    background: url("../images/999047_artstation-anatomy-study-human-skeleton-amin-akhshi_1920x1080_h.jpg");
+    background-size: contain;
+}
+
+.jumbotron {
+    max-height: 240px;
+    line-height: 0.6;
+}
+
+h3 {
+    color: rgb(32, 84, 145);
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#text-word {
+    font-size: 40px;
+}
+
+p {
+    color: yellow;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+
+#guesses-so-far {
+    color: #00FF00;
+    font-size: 30px;
+}
+
+.rules {
+    color: dodgerblue;
+}
+
+@media all and (max-width: 700px) {
+    .jumbotron {
+        height: 200px;
+        line-height: 0.4;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 1;
+    }
+    p {
+        font-size: 22px;
+        line-height: 0.8;
+    }
+    h1 {
+        font-size: 32px;
+    }
+}
