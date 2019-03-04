@@ -4,7 +4,6 @@ body {
 }
 
 .jumbotron {
-    max-height: 260px;
     line-height: 0.6;
 }
 
@@ -39,7 +38,7 @@ p {
 @media all and (max-width: 700px) {
     .jumbotron {
         height: 200px;
-        line-height: 0.4;
+        line-height: 0.3;
     }
     h3 {
         font-size: 22px;
